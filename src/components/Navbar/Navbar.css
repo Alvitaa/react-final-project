@@ -45,6 +45,10 @@ nav > button {
     display: none;
 }
 
+.nav-menu {
+    display: none;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -55,6 +59,7 @@ nav > button {
   }
 
   .nav-menu {
+    display: block;
     padding: 0;
     list-style: none;
     text-align: center;
@@ -67,9 +72,5 @@ nav > button {
 
   .nav-menu > li:last-child {
     padding-bottom: 1rem;
-  }
-
-  .nav-menu.active {
-    
   }
 }

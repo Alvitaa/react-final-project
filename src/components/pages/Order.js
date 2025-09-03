@@ -1,5 +1,7 @@
 export default function Order() {
     return(
-        <h1>Order</h1>
+        <section>
+            <h1>Order</h1>
+        </section>
     );
 }
