@@ -68,7 +68,7 @@ export default function Highlights() {
     }
 
     return (
-        <section>
+        <section className="highlights">
             <h1>This weeks Specials!</h1>
             <button className="order-button" onClick={goMenu}>Online Menu</button>
             <div className="food-list">

@@ -14,7 +14,7 @@ main > section {
 
 main > section:nth-child(odd) {
     background-color: var(--primary-color);
-    color: white;
+    color: white !important;
 }
 
 main > section:nth-child(even) {

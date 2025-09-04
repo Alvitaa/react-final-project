@@ -3,7 +3,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Homepage from "./components/pages/Homepage/Homepage";
-import About from "./components/pages/About";
+import About from "./components/pages/About/About";
 import Login from "./components/pages/Login";
 import Menu from "./components/pages/Menu";
 import Reservation from "./components/pages/Reservation";
