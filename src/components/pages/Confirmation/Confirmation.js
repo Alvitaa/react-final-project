@@ -6,6 +6,10 @@ const Confirmation = () => {
     const [reservedDetails, setReserveDetails] = useState("");
     const navigate = useNavigate("/");
 
+    function handleClick () {
+        navigate("/");
+    }
+
     useEffect(() => {
         const data = localStorage.getItem("Bookings");
         console.log(data);
@@ -44,7 +48,7 @@ const Confirmation = () => {
                     </span>
                 </h3>
             </div>
-            <button className="confirmation-home">Go back to Home</button>
+            <button className="confirmation-home" onClick={handleClick}>Go back to Home</button>
         </section>
     );
 };
