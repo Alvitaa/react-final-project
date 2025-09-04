@@ -6,8 +6,9 @@ import Homepage from "./components/pages/Homepage/Homepage";
 import About from "./components/pages/About/About";
 import Login from "./components/pages/Login";
 import Menu from "./components/pages/Menu";
-import Reservation from "./components/pages/Reservation";
+import Reservation from "./components/pages/Reservation/Reservation";
 import Order from "./components/pages/Order";
+import Confirmation from "./components/pages/Confirmation/Confirmation";
 
 function Main() {
 	return (
@@ -17,6 +18,7 @@ function Main() {
 				<Route path="/about" element={<About />} />
 				<Route path="/menu" element={<Menu />} />
 				<Route path="/reservation" element={<Reservation />} />
+				<Route path="/reservation/confirmed" element={<Confirmation />} />
 				<Route path="/order" element={<Order />} />
 				<Route path="/login" element={<Login />} />
 			</Routes>

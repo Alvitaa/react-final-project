@@ -6,6 +6,7 @@
   grid-template-columns: 1fr;
   gap: 50px;
   place-items: center;
+  background-color: white !important;
 }
 
 .about-title {
